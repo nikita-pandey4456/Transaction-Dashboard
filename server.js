@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const axios = require('axios');
 
-const cors = require('cors'); // Import the cors middleware
+const cors = require('cors'); 
 
 const app = express();
 app.use(cors({ origin: '*' }));
